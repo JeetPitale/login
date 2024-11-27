@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <div class="container">
+        <h2>LOG IN</h2>
+
+        <form action="log.php" method="POST">
+            
+            <div class="form-group">
+                <input type="email" name="email" required>
+                <label >Email</label>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="form-group">
+                <input type="password" name="pass" required>
+                <label >Password</label>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <p><input type="checkbox">Remember Me <a href="#">Forget Password</a></p>
+
+            <input id="btn" type="submit" name="Login" value="Login">
+
+            <p>Don't have a account? <a href="register.html">Register</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
